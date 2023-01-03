@@ -1,0 +1,40 @@
+body{
+  height: 125vh;
+  font-family: Georgia, serif;;
+}
+.App {
+  text-align: center;
+  background-color: #84a98c;
+  color: #2f3e46;
+  margin-top: 2.5vw;
+  padding: 10vw;
+  font-family: Georgia, serif;;
+}
+.App h1{
+  padding: 3vw;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1vw;
+  display: flex;
+  align-items: center;
+  display: inline;
+  position: fixed;
+  background-color: #c39ff6;
+  z-index:10000
+
+}
+
+.nav-bar a{
+  text-decoration: none;
+  padding: 2.2vw;
+}
+
+a:hover {
+    color: white;
+}
+
