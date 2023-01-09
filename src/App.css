@@ -1,16 +1,18 @@
-body{
-  height: 125vh;
-  font-family: Georgia, serif;;
+body {
+  height: 100vh;
+  font-family: Georgia, serif;
 }
 .App {
   text-align: center;
   background-color: #84a98c;
   color: #2f3e46;
   margin-top: 2.5vw;
-  padding: 10vw;
-  font-family: Georgia, serif;;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  padding-bottom: 30vw;
+  font-family: Georgia, serif;
 }
-.App h1{
+.App h1 {
   padding: 3vw;
 }
 
@@ -25,16 +27,14 @@ body{
   display: inline;
   position: fixed;
   background-color: #c39ff6;
-  z-index:10000
-
+  z-index: 10000;
 }
 
-.nav-bar a{
+.nav-bar a {
   text-decoration: none;
   padding: 2.2vw;
 }
 
 a:hover {
-    color: white;
+  color: white;
 }
-

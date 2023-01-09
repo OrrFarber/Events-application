@@ -10,7 +10,7 @@ export default function EventForm() {
   const param = useParams();
   const EditEvent = eventList.filter((edit, i) => {
     eventIndex = i;
-    return edit.eventName == param.editEvent;
+    return edit.eventName === param.editEvent;
   });
   console.log(EditEvent);
 
@@ -51,7 +51,8 @@ export default function EventForm() {
         placeholder="Description"
         {...register("description")}
       />
-      <button class="button-1" type="submit" value="Add event">
+      <br/>
+      <button className="button-1" type="submit" value="Add event">
         Submit
       </button>
     </form>

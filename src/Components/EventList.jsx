@@ -1,4 +1,4 @@
-import { useContext, useState } from "react";
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { EventDataContext } from "../App";
 import "./layouts.css";
@@ -19,13 +19,13 @@ export default function EventList() {
           <p>Date: {newEvent.startDate}</p>
           <p>Time: {newEvent.time}</p>
           <p>Location: {newEvent.location}</p>
-          <button class="button-1" onClick={() => DeleteEvent(index)}>Delete</button>
+          <button className="button-1" onClick={() => DeleteEvent(index)}>Delete</button>
 
           <NavLink to={`/EventDetails/${newEvent.eventName}`}>
-            <button class="button-1">Details</button>
+            <button className="button-1">Details</button>
           </NavLink>
           <NavLink to={`/EventForm/${newEvent.eventName}`}>
-            <button class="button-1">Edit</button>
+            <button className="button-1">Edit</button>
           </NavLink>
         </li>
       ))}

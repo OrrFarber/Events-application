@@ -3,10 +3,10 @@ import { useParams } from "react-router-dom";
 import { EventDataContext } from "../App";
 
 export default function EventDetails() {
-  const { eventList, setEventList } = useContext(EventDataContext);
+  const { eventList } = useContext(EventDataContext);
   const param = useParams();
   const eventDet = eventList.filter(
-    (item) => item.eventName == param.eventParam
+    (item) => item.eventName === param.eventParam
   );
 
   return (
