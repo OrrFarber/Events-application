@@ -1,0 +1,6 @@
+{
+    "key": "value",
+    "secKey": "secValue",
+    "innerArr": [1,2,3], 
+    "innerObj": {"key1": "value1"}
+}

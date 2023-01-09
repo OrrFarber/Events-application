@@ -51,7 +51,7 @@ export default function EventForm() {
         placeholder="Description"
         {...register("description")}
       />
-      <br/>
+      <br />
       <button className="button-1" type="submit" value="Add event">
         Submit
       </button>
