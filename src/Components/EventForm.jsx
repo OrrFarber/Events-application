@@ -34,7 +34,7 @@ export default function EventForm() {
       alert("Event added to event list");
     }
   };
-  // const onSubmit = (data) => console.log(data);
+console.log("submit");
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="form">
